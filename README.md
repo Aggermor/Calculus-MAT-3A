@@ -315,7 +315,9 @@ Full local lecture archive: [Download Lecture Archive from Google Drive](https:/
 
 ## Additional Practice Resources
 
-These files collect the broader course practice material. They are not tied to only one section; they usually review the sections covered since the previous problem set or podcast assignment.
+These files collect the broader course practice material. They are not tied to only one section; they usually review the sections covered since the previous problem set or podcast assignment.  
+  
+- [Math 3A 3X5 Card](Math%203A%203X5%20Card.pdf) — Quick derivative formula sheet covering the definition of the derivative, power rule, product/quotient rules, trig derivatives, chain rule, logarithmic/exponential derivatives, and inverse trig derivatives.
 
 ### Podcasts
 
