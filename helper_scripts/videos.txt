@@ -1,0 +1,52 @@
+module, section, title, url
+00, 1, Trig Review 1,                               https://www.youtube.com/watch?v=vLbkuKi4HkQ
+00, 2, Trig Review 2,                               https://www.youtube.com/watch?v=e9SLKvWjMpw
+00, 3, Trig Review 3,                               https://www.youtube.com/watch?v=Efkt7mxoEjM
+00, 4, Trig Review 4,                               https://www.youtube.com/watch?v=YUNU9ecbLjA
+
+01, 2.1, Secant Lines and Velocity,                 https://www.youtube.com/watch?v=sOYDj7fSAcY
+01, 2.2, Limits of a function,                      https://www.youtube.com/watch?v=fjFIeuQ5mO4
+
+02, 2.3, Calculating Limits,                        https://www.youtube.com/watch?v=GfofI6Iyvio
+02, 2.5, Continuity,                                https://www.youtube.com/watch?v=hXvxmHTTc_Q
+
+03, 2.6, Limits Involving Infinity,                 https://www.youtube.com/watch?v=7QJpNaxg-4g
+03, 2.7, Derivatives as Rates of Change,            https://www.youtube.com/watch?v=V4fDqMnXIrE
+
+04, 2.8, Derivative as a Function,                  https://www.youtube.com/watch?v=RM97wNj6gPU
+04, 3.1, The Power Rule,                            https://www.youtube.com/watch?v=OkS5w-QoiVA
+
+05, 3.2, Product and Quotient Rules,                https://www.youtube.com/watch?v=P9rv8NQeBt4
+05, 3.3, Derivatives of Trig Functions,             https://www.youtube.com/watch?v=Whah3GALJfc
+
+06, 3.4, The Chain Rule,                            https://www.youtube.com/watch?v=WUKWthi0bVc
+06, 3.4, The Chain Rule Part 2,                     https://www.youtube.com/watch?v=-i-VtIBHYZg
+06, 3.5  Part 1,Implicit Differentiation Part 1,    https://www.youtube.com/watch?v=RrtyRniTzUc
+06, 3.5  Part 2,Implicit Differentiation Part 2,    https://www.youtube.com/watch?v=lroTMDuOdog
+
+07, 3.6, Logarithmic Differentiation,               https://www.youtube.com/watch?v=pMbjTMufMMQ
+07, 3.7, Derivatives as Rates of Change,            https://www.youtube.com/watch?v=Ktndnr-HhQ8
+
+08, 3.9, Related Rates,                             https://www.youtube.com/watch?v=_hfGxAHyHlE
+08, 3.10, Linear Approximations,                    https://www.youtube.com/watch?v=gqL6nTz9vco
+
+09, 4.1, Minimums and Maximums,                     https://www.youtube.com/watch?v=E5zR-ZmKyEw
+09, 4.2, The Mean Value Theorem,                    https://www.youtube.com/watch?v=ulaUt8caRO0
+
+10, 4.3, Derivatives and Graphing,                  https://www.youtube.com/watch?v=gjV5paTS_DA
+10, 4.4, L'Hopital's Rule,                          https://www.youtube.com/watch?v=P1KMRIKGtdA
+
+11, 4.7, Optimization,                              https://www.youtube.com/watch?v=8kJCpuBMzTI
+11, 4.8, Newton's Method,                           https://www.youtube.com/watch?v=uu_lE0WuyRA
+
+12, 4.9, Integration,                               https://www.youtube.com/watch?v=4RBniNJ97Zs
+12, 5.1, Riemann Sums,                              https://www.youtube.com/watch?v=vSoXEzy-OJY
+
+13, 5.2, The Definite Integral,                     https://www.youtube.com/watch?v=JEf1HtGnYFA
+13, 5.3, Fundamental Theorem of Calculus,           https://www.youtube.com/watch?v=vx6iJOM8epU
+
+14, 5.4, Definite vs Indefinite Integrals,          https://www.youtube.com/watch?v=4dp11oMQUhA
+14, 5.5, U-substitution,                            https://www.youtube.com/watch?v=SwIyZOJxAd4
+
+15, 6.1, Area Between Curves,                       https://www.youtube.com/watch?v=2h3nX37zPnU
+15, 6.2, Solids of Revolution,                      https://www.youtube.com/watch?v=5m4OnTEKo54

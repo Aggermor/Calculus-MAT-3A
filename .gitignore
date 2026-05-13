@@ -1,0 +1,10 @@
+**/desktop.ini
+.vscode/
+
+# Ignore lecture materials (videos, notes, etc.) since they are large
+# can be redownloaded from: https://drive.google.com/drive/folders/1QlKaBPbDwDbA_sUN9G05ERioEDPmJJuU?usp=sharing
+Lectures/
+
+# Ignore generated files from helper scripts
+generated-lecture-links.md
+downloaded-lectures.txt
