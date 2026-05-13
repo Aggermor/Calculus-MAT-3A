@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculus 1 MAT-3A Big Map</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #1f232a;
+      --panel: #252a33;
+      --text: #d7dce5;
+      --muted: #aeb6c2;
+      --line: #59616f;
+      --link: #5db7ff;
+      --link-hover: #8cd0ff;
+      --accent: #c8ced8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.1;
+      margin: 0 0 1rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.85rem;
+      color: var(--text);
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin: 2.25rem 0 0.75rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.45rem;
+      color: var(--text);
+    }
+    h3 {
+      font-size: 1.25rem;
+      margin: 1.6rem 0 0.4rem;
+      color: var(--text);
+    }
+    p {
+      margin: 0.75rem 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+    .big-picture {
+      margin: 1.5rem 0 2rem;
+    }
+    .path {
+      font-weight: 700;
+      color: var(--text);
+      margin: 1.4rem 0;
+    }
+    .note {
+      color: var(--muted);
+    }
+    .calc-map {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      border-top: 1px solid var(--line);
+    }
+    .calc-map td {
+      vertical-align: top;
+      padding: 1.3rem 1.25rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .calc-map td.module-num {
+      width: 7rem;
+      font-size: clamp(2.8rem, 6vw, 4.5rem);
+      font-weight: 800;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 1;
+      color: var(--accent);
+    }
+    .section {
+      margin: 0 0 1.25rem;
+    }
+    .section:last-of-type {
+      margin-bottom: 0;
+    }
+    .section-title {
+      font-weight: 800;
+      font-size: 1.08rem;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+    }
+    .section-point {
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+    .section-links {
+      font-size: 0.96rem;
+    }
+    .row-buffer {
+      height: 0.45rem;
+    }
+    ul {
+      padding-left: 1.35rem;
+      color: var(--muted);
+    }
+    li {
+      margin: 0.65rem 0;
+    }
+    .resource-block {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+      margin-top: 1rem;
+    }
+    @media (max-width: 720px) {
+      main { padding: 1.25rem 0.8rem 3rem; }
+      .calc-map td { padding: 1rem 0.8rem; }
+      .calc-map td.module-num { width: 4.2rem; font-size: 2.6rem; }
+      .section-links { line-height: 1.8; }
+    }
+    @media print {
+      :root { color-scheme: light; }
+      body { background: white; color: #111; }
+      main { max-width: none; padding: 0.5in; }
+      p, .section-point, li, .note { color: #222; }
+      a { color: #0645ad; text-decoration: underline; }
+      .calc-map td, h1, h2, .calc-map { border-color: #bbb; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Calculus 1 MAT-3A Big Map</h1>
+  <p>Organized notes, problem sets, lecture resources, and study materials for Calculus MAT-3A.</p>
+
+  <section class="big-picture">
+    <p>Calculus starts by asking: <strong>How does something change?</strong><br>
+    Then it builds tools to measure change, predict behavior, optimize situations, and measure accumulated total amounts.</p>
+    <p class="path">Limits → Derivatives → Derivative Applications → Integrals → Integral Applications</p>
+    <p>Derivatives measure change. Integrals measure accumulation. The first half of the course builds the derivative as a tool for slopes, rates, graph behavior, and optimization. The second half builds the integral as a tool for area, total change, area between curves, and volume.</p>
+  </section>
+
+  <h2>Lecture Video Archive</h2>
+  <p>Lecture links include both a local MP4 path and the original YouTube link. The local MP4 links will work after the <code>lectures/</code> folder is downloaded and placed in the root of this repo.</p>
+  <p>Full local lecture archive: <a href="https://drive.google.com/drive/folders/1QlKaBPbDwDbA_sUN9G05ERioEDPmJJuU?usp=sharing">Download Lecture Archive from Google Drive</a></p>
+
+  <table class="calc-map">
+    
+    <tr>
+      <td class="module-num">0</td>
+      <td>
+        <div class="section">
+          <div class="section-title">Trig Review</div>
+          <div class="section-point">Reviews the trigonometry skills needed for Calculus 1, especially trig values, identities, and function behavior.</div>
+          <div class="section-links"><a href="lectures/module-00/1%20-%20Trig%20Review%201.mp4">Trig Review 1 Local MP4</a> | <a href="https://www.youtube.com/watch?v=vLbkuKi4HkQ">YouTube</a> | <a href="lectures/module-00/2%20-%20Trig%20Review%202.mp4">Trig Review 2 Local MP4</a> | <a href="https://www.youtube.com/watch?v=e9SLKvWjMpw">YouTube</a> | <a href="lectures/module-00/3%20-%20Trig%20Review%203.mp4">Trig Review 3 Local MP4</a> | <a href="https://www.youtube.com/watch?v=Efkt7mxoEjM">YouTube</a> | <a href="lectures/module-00/4%20-%20Trig%20Review%204.mp4">Trig Review 4 Local MP4</a> | <a href="https://www.youtube.com/watch?v=YUNU9ecbLjA">YouTube</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">1</td>
+      <td>
+        <div class="section">
+          <div class="section-title">2.1 — Secant Lines and Velocity</div>
+          <div class="section-point">Introduces average rate of change. You learn how slope between two points can describe motion, speed, or change over an interval.</div>
+          <div class="section-links"><a href="lectures/module-01/2.1%20-%20Secant%20Lines%20and%20Velocity.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=sOYDj7fSAcY">YouTube</a> | <a href="notes/2.1%20Secant%20Lines%20and%20Velocity%20Notes.pdf">Notes</a> | <a href="notes/2.1%20Secant%20Lines%20and%20Velocity%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">2.2 — Limits of a Function</div>
+          <div class="section-point">Introduces the idea of getting closer and closer to a value. Limits are the foundation for derivatives and integrals.</div>
+          <div class="section-links"><a href="lectures/module-01/2.2%20-%20Limits%20of%20a%20Function.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=fjFIeuQ5mO4">YouTube</a> | <a href="notes/2.2%20Limits%20of%20a%20Function%20Notes.pdf">Notes</a> | <a href="notes/2.2%20Limits%20of%20a%20Function%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">2</td>
+      <td>
+        <div class="section">
+          <div class="section-title">2.3 — Calculating Limits</div>
+          <div class="section-point">Teaches algebra methods for actually finding limits. This makes limits practical instead of just conceptual.</div>
+          <div class="section-links"><a href="lectures/module-02/2.3%20-%20Calculating%20Limits.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=GfofI6Iyvio">YouTube</a> | <a href="notes/2.3%20Calculating%20Limits%20Notes.pdf">Notes</a> | <a href="notes/2.3%20Calculating%20Limits%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">2.5 — Continuity</div>
+          <div class="section-point">Studies when a graph has no breaks, holes, or jumps. Continuity matters because many calculus rules only work nicely on continuous functions.</div>
+          <div class="section-links"><a href="lectures/module-02/2.5%20-%20Continuity.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=hXvxmHTTc_Q">YouTube</a> | <a href="notes/2.5%20Continuity%20Notes.pdf">Notes</a> | <a href="notes/2.5%20Continuity%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">3</td>
+      <td>
+        <div class="section">
+          <div class="section-title">2.6 — Limits Involving Infinity</div>
+          <div class="section-point">Looks at end behavior and horizontal asymptotes. This helps describe what functions do very far left or right.</div>
+          <div class="section-links"><a href="lectures/module-03/2.6%20-%20Limits%20Involving%20Infinity.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=7QJpNaxg-4g">YouTube</a> | <a href="notes/2.6%20Limits%20Involving%20Infinity%20Notes.pdf">Notes</a> | <a href="notes/2.6%20Limits%20Involving%20Infinity%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">2.7 — Derivatives as Rates of Change</div>
+          <div class="section-point">Introduces the derivative as an instant rate of change. This is where calculus starts measuring right-now change instead of average change.</div>
+          <div class="section-links"><a href="lectures/module-03/2.7%20-%20Derivatives%20as%20Rates%20of%20Change.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=V4fDqMnXIrE">YouTube</a> | <a href="notes/2.7%20Derivatives%20as%20Rates%20of%20Change%20Notes.pdf">Notes</a> | <a href="notes/2.7%20Derivatives%20as%20Rates%20of%20Change%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">4</td>
+      <td>
+        <div class="section">
+          <div class="section-title">2.8 — Derivative as a Function</div>
+          <div class="section-point">Instead of finding slope at one point, you learn to create a new function that gives slope everywhere.</div>
+          <div class="section-links"><a href="lectures/module-04/2.8%20-%20Derivative%20as%20a%20Function.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=RM97wNj6gPU">YouTube</a> | <a href="notes/2.8%20Derivative%20as%20a%20Function%20Notes.pdf">Notes</a> | <a href="notes/2.8%20Derivative%20as%20a%20Function%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">3.1 — The Power Rule</div>
+          <div class="section-point">Gives a fast rule for differentiating powers of x. This is one of the main shortcut tools for derivatives.</div>
+          <div class="section-links"><a href="lectures/module-04/3.1%20-%20The%20Power%20Rule.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=OkS5w-QoiVA">YouTube</a> | <a href="notes/3.1%20The%20Power%20Rule%20Notes.pdf">Notes</a> | <a href="notes/3.1%20The%20Power%20Rule%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">5</td>
+      <td>
+        <div class="section">
+          <div class="section-title">3.2 — Product and Quotient Rules</div>
+          <div class="section-point">Teaches how to differentiate functions that are multiplied or divided. This expands what kinds of functions you can handle.</div>
+          <div class="section-links"><a href="lectures/module-05/3.2%20-%20Product%20and%20Quotient%20Rules.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=P9rv8NQeBt4">YouTube</a> | <a href="notes/3.2%20Product%20and%20Quotient%20Rules%20Notes.pdf">Notes</a> | <a href="notes/3.2%20Product%20and%20Quotient%20Rules%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">3.3 — Derivatives of Trig Functions</div>
+          <div class="section-point">Adds sine, cosine, tangent, and other trig functions to your derivative toolbox.</div>
+          <div class="section-links"><a href="lectures/module-05/3.3%20-%20Derivatives%20of%20Trig%20Functions.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=Whah3GALJfc">YouTube</a> | <a href="notes/3.3%20Derivatives%20of%20Trig%20Functions%20Notes.pdf">Notes</a> | <a href="notes/3.3%20Derivatives%20of%20Trig%20Functions%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">6</td>
+      <td>
+        <div class="section">
+          <div class="section-title">3.4 — The Chain Rule</div>
+          <div class="section-point">Teaches how to differentiate functions inside other functions. This is one of the most important derivative rules.</div>
+          <div class="section-links"><a href="lectures/module-06/3.4%20-%20The%20Chain%20Rule.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=WUKWthi0bVc">YouTube</a> | <a href="lectures/module-06/3.4%20Part%202%20-%20The%20Chain%20Rule%20Part%202.mp4">Part 2 Local MP4</a> | <a href="https://www.youtube.com/watch?v=-i-VtIBHYZg">Part 2 YouTube</a> | <a href="notes/3.4%20The%20Chain%20Rule%20Notes.pdf">Notes</a> | <a href="notes/3.4%20The%20Chain%20Rule%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">3.5 — Implicit Differentiation Part 1 and Part 2</div>
+          <div class="section-point">Teaches how to differentiate equations where y is not solved by itself. This is useful for circles, curves, and related rates.</div>
+          <div class="section-links"><a href="lectures/module-06/3.5%20Part%201%20-%20Implicit%20Differentiation%20Part%201.mp4">Part 1 Local MP4</a> | <a href="https://www.youtube.com/watch?v=RrtyRniTzUc">Part 1 YouTube</a> | <a href="lectures/module-06/3.5%20Part%202%20-%20Implicit%20Differentiation%20Part%202.mp4">Part 2 Local MP4</a> | <a href="https://www.youtube.com/watch?v=lroTMDuOdog">Part 2 YouTube</a> | <a href="notes/3.5%20Implicit%20Differentiation%20Notes.pdf">Notes</a> | <a href="notes/3.5%20Implicit%20Differentiation%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">7</td>
+      <td>
+        <div class="section">
+          <div class="section-title">3.6 — Logarithmic Differentiation</div>
+          <div class="section-point">Uses logarithms to make complicated derivatives easier, especially products, quotients, powers, and variable exponents.</div>
+          <div class="section-links"><a href="lectures/module-07/3.6%20-%20Logarithmic%20Differentiation.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=pMbjTMufMMQ">YouTube</a> | <a href="notes/3.6%20Logarithmic%20Differentiation%20Notes.pdf">Notes</a> | <a href="notes/3.6%20Logarithmic%20Differentiation%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">3.7 — Derivatives as Rates of Change</div>
+          <div class="section-point">Applies derivatives to real-world rates: velocity, growth, cost, population, temperature, and other changing quantities.</div>
+          <div class="section-links"><a href="lectures/module-07/3.7%20-%20Derivatives%20as%20Rates%20of%20Change.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=Ktndnr-HhQ8">YouTube</a> | <a href="notes/3.7%20Derivatives%20as%20Rates%20of%20Change%20Notes.pdf">Notes</a> | <a href="notes/3.7%20Derivatives%20as%20Rates%20of%20Change%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">8</td>
+      <td>
+        <div class="section">
+          <div class="section-title">3.9 — Related Rates</div>
+          <div class="section-point">Uses derivatives to connect two changing quantities. For example, if radius changes, area or volume changes too.</div>
+          <div class="section-links"><a href="lectures/module-08/3.9%20-%20Related%20Rates.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=_hfGxAHyHlE">YouTube</a> | <a href="notes/3.9%20Related%20Rates%20Notes.pdf">Notes</a> | <a href="notes/3.9%20Related%20Rates%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">3.10 — Linear Approximations</div>
+          <div class="section-point">Uses tangent lines to estimate nearby function values. This shows how derivatives help with prediction.</div>
+          <div class="section-links"><a href="lectures/module-08/3.10%20-%20Linear%20Approximations.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=gqL6nTz9vco">YouTube</a> | <a href="notes/3.10%20Linear%20Approximations%20Notes.pdf">Notes</a> | <a href="notes/3.10%20Linear%20Approximations%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">9</td>
+      <td>
+        <div class="section">
+          <div class="section-title">4.1 — Minimums and Maximums</div>
+          <div class="section-point">Teaches how to find high and low points of a function. This is the start of optimization.</div>
+          <div class="section-links"><a href="lectures/module-09/4.1%20-%20Minimums%20and%20Maximums.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=E5zR-ZmKyEw">YouTube</a> | <a href="notes/4.1%20Minimums%20and%20Maximums%20Notes.pdf">Notes</a> | <a href="notes/4.1%20Minimums%20and%20Maximums%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">4.2 — The Mean Value Theorem</div>
+          <div class="section-point">Connects average rate of change to instant rate of change. It proves that at some point, the derivative must match the average slope.</div>
+          <div class="section-links"><a href="lectures/module-09/4.2%20-%20The%20Mean%20Value%20Theorem.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=ulaUt8caRO0">YouTube</a> | <a href="notes/4.2%20The%20Mean%20Value%20Theorem%20Notes.pdf">Notes</a> | <a href="notes/4.2%20The%20Mean%20Value%20Theorem%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">10</td>
+      <td>
+        <div class="section">
+          <div class="section-title">4.3 — Derivatives and Graphing</div>
+          <div class="section-point">Uses first and second derivatives to understand increasing, decreasing, concavity, maximums, minimums, and graph shape.</div>
+          <div class="section-links"><a href="lectures/module-10/4.3%20-%20Derivatives%20and%20Graphing.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=gjV5paTS_DA">YouTube</a> | <a href="notes/4.3%20Derivatives%20and%20Graphing%20Notes.pdf">Notes</a> | <a href="notes/4.3%20Derivatives%20and%20Graphing%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">4.4 — L'Hopital's Rule</div>
+          <div class="section-point">Uses derivatives to solve tricky limits like 0/0 or infinity/infinity. This connects limits and derivatives.</div>
+          <div class="section-links"><a href="lectures/module-10/4.4%20-%20L%27Hopital%27s%20Rule.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=P1KMRIKGtdA">YouTube</a> | <a href="notes/4.4%20L%27Hopital%27s%20Rule%20Notes.pdf">Notes</a> | <a href="notes/4.4%20L%27Hopital%27s%20Rule%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">11</td>
+      <td>
+        <div class="section">
+          <div class="section-title">4.7 — Optimization</div>
+          <div class="section-point">Uses derivatives to find the best possible value, like maximum area, minimum cost, or most efficient dimensions.</div>
+          <div class="section-links"><a href="lectures/module-11/4.7%20-%20Optimization.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=8kJCpuBMzTI">YouTube</a> | <a href="notes/4.7%20Optimization%20Notes.pdf">Notes</a> | <a href="notes/4.7%20Optimization%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">4.8 — Newton's Method</div>
+          <div class="section-point">Uses tangent lines to approximate solutions to equations. This is a calculator/computational method based on derivatives.</div>
+          <div class="section-links"><a href="lectures/module-11/4.8%20-%20Newton%27s%20Method.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=uu_lE0WuyRA">YouTube</a> | <a href="notes/4.8%20Newton%27s%20Method%20Notes.pdf">Notes</a> | <a href="notes/4.8%20Newton%27s%20Method%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">12</td>
+      <td>
+        <div class="section">
+          <div class="section-title">4.9 — Integration</div>
+          <div class="section-point">Introduces antiderivatives. This is the reverse process of differentiation.</div>
+          <div class="section-links"><a href="lectures/module-12/4.9%20-%20Integration.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=4RBniNJ97Zs">YouTube</a> | <a href="notes/4.9%20Integration%20Notes.pdf">Notes</a> | <a href="notes/4.9%20Integration%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">5.1 — Riemann Sums</div>
+          <div class="section-point">Approximates area by adding rectangles. This builds the idea behind definite integrals.</div>
+          <div class="section-links"><a href="lectures/module-12/5.1%20-%20Riemann%20Sums.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=vSoXEzy-OJY">YouTube</a> | <a href="notes/5.1%20Riemann%20Sums%20Notes.pdf">Notes</a> | <a href="notes/5.1%20Riemann%20Sums%20Extra.pdf">Extra</a> | <a href="notes/5.1%20Riemann%20Sums%20Extra2.jpg">Extra2</a> | <a href="notes/5.1%20Riemann%20Sums%20Extra3.jpeg">Extra3</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">13</td>
+      <td>
+        <div class="section">
+          <div class="section-title">5.2 — The Definite Integral</div>
+          <div class="section-point">Turns Riemann sums into exact accumulated area. This is how calculus measures total change.</div>
+          <div class="section-links"><a href="lectures/module-13/5.2%20-%20The%20Definite%20Integral.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=JEf1HtGnYFA">YouTube</a> | <a href="notes/5.2%20The%20Definite%20Integral%20Notes.pdf">Notes</a> | <a href="notes/5.2%20The%20Definite%20Integral%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">5.3 — Fundamental Theorem of Calculus</div>
+          <div class="section-point">Connects derivatives and integrals. This is the major bridge: integration and differentiation are opposites.</div>
+          <div class="section-links"><a href="lectures/module-13/5.3%20-%20Fundamental%20Theorem%20of%20Calculus.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=vx6iJOM8epU">YouTube</a> | <a href="notes/5.3%20Fundamental%20Theorem%20of%20Calculus%20Notes.pdf">Notes</a> | <a href="notes/5.3%20Fundamental%20Theorem%20of%20Calculus%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">14</td>
+      <td>
+        <div class="section">
+          <div class="section-title">5.4 — Definite vs Indefinite Integrals</div>
+          <div class="section-point">Separates two ideas: indefinite integrals give antiderivative families, while definite integrals give exact accumulated values.</div>
+          <div class="section-links"><a href="lectures/module-14/5.4%20-%20Definite%20vs%20Indefinite%20Integrals.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=4dp11oMQUhA">YouTube</a> | <a href="notes/5.4%20Definite%20vs%20Indefinite%20Integrals%20Notes.pdf">Notes</a> | <a href="notes/5.4%20Definite%20vs%20Indefinite%20Integrals%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">5.5 — U-substitution</div>
+          <div class="section-point">The reverse of the chain rule. This is your first major technique for solving harder integrals.</div>
+          <div class="section-links"><a href="lectures/module-14/5.5%20-%20U-substitution.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=SwIyZOJxAd4">YouTube</a> | <a href="notes/5.5%20U-substitution%20Notes.pdf">Notes</a> | <a href="notes/5.5%20U-substitution%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+    <tr>
+      <td class="module-num">15</td>
+      <td>
+        <div class="section">
+          <div class="section-title">6.1 — Area Between Curves</div>
+          <div class="section-point">Uses definite integrals to measure the area trapped between two graphs. This extends the area idea beyond just area under one curve.</div>
+          <div class="section-links"><a href="lectures/module-15/6.1%20-%20Area%20Between%20Curves.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=2h3nX37zPnU">YouTube</a> | <a href="notes/6.1%20Area%20Between%20Curves%20Notes.pdf">Notes</a> | <a href="notes/6.1%20Area%20Between%20Curves%20Extra.pdf">Extra</a></div>
+        </div>
+        
+        <div class="section">
+          <div class="section-title">6.2 — Solids of Revolution</div>
+          <div class="section-point">Uses integrals to find volumes made by rotating a region around an axis. This turns accumulated area into accumulated volume.</div>
+          <div class="section-links"><a href="lectures/module-15/6.2%20-%20Solids%20of%20Revolution.mp4">Local MP4</a> | <a href="https://www.youtube.com/watch?v=5m4OnTEKo54">YouTube</a> | <a href="notes/6.2%20Solids%20of%20Revolution%20Notes.pdf">Notes</a> | <a href="notes/6.2%20Solids%20of%20Revolution%20Extra.pdf">Extra</a></div>
+        </div>
+        <div class="row-buffer"></div></td>
+    </tr>
+    
+  </table>
+
+  <h2>Whole-course summary</h2>
+  <p><strong>Derivatives measure change.</strong> They answer questions like: How fast is something changing? Where is it increasing or decreasing? Where is it biggest or smallest? What does the graph look like?</p>
+  <p><strong>Integrals measure accumulation.</strong> They answer questions like: How much has accumulated? What is the total area? What is the total change over an interval? How can area be turned into volume?</p>
+
+  <h2>Additional Practice Resources</h2>
+  <p>These files collect the broader course practice material. They are not tied to only one section; they usually review the sections covered since the previous problem set or podcast assignment.</p>
+
+  <div class="resource-block">
+    <h3>Quick Reference</h3>
+    <ul>
+      <li><a href="Math%203A%203X5%20Card.pdf">Math 3A 3X5 Card</a> — Quick derivative formula sheet covering the definition of the derivative, power rule, product/quotient rules, trig derivatives, chain rule, logarithmic/exponential derivatives, and inverse trig derivatives.</li>
+    </ul>
+  </div>
+
+  <div class="resource-block">
+    <h3>Podcasts</h3>
+    <p>Podcast PDFs are grouped by problem-number ranges based on where podcasts appear in the course modules.</p>
+    <ul>
+      <li><a href="podcasts/Math%203A%20Podcast%20Problems.pdf">Math 3A Podcast Problems</a> — Main podcast problem packet containing the full set of podcast practice problems.</li>
+<li><a href="https://www.youtube.com/playlist?list=PLFDF7CDBECA40DABE">Math 3A Podcast Videos</a> — YouTube playlist with the worked podcast video solutions/explanations.</li>
+<li><a href="podcasts/Podcast%201-15.pdf">Podcast 1–15</a> — Review through Module 4: 2.1–3.1. Covers secant lines, limits, continuity, derivatives, derivative as a function, and the power rule.</li>
+<li><a href="podcasts/Podcast%2016-29.pdf">Podcast 16–29</a> — Review through Module 6: 3.2–3.5. Covers product/quotient rules, trig derivatives, chain rule, and implicit differentiation.</li>
+<li><a href="podcasts/Podcast%2030-38.pdf">Podcast 30–38</a> — Review through Module 8: 3.6–3.10. Covers logarithmic differentiation, rates of change, related rates, and linear approximations.</li>
+<li><a href="podcasts/Podcast%2039-52.pdf">Podcast 39–52</a> — Review through Module 9: 4.1–4.2. Covers minimums/maximums and the Mean Value Theorem.</li>
+<li><a href="podcasts/Podcast%2053-58.pdf">Podcast 53–58</a> — Review through Module 10: 4.3–4.4. Covers derivatives and graphing plus L’Hopital’s Rule.</li>
+<li><a href="podcasts/Podcast%2059-71.pdf">Podcast 59–71</a> — Review through Module 11: 4.7–4.8. Covers optimization and Newton’s Method.</li>
+<li><a href="podcasts/Podcast%2072-84.pdf">Podcast 72–84</a> — Review through Module 13: 4.9–5.3. Covers integration, Riemann sums, definite integrals, and the Fundamental Theorem of Calculus.</li>
+<li><a href="podcasts/Podcast%2085-88.pdf">Podcast 85–88</a> — Review through Module 15: 5.4–6.2. Covers definite vs indefinite integrals, u-substitution, area between curves, and solids of revolution.</li>
+    </ul>
+  </div>
+
+  <div class="resource-block">
+    <h3>Problem Sets</h3>
+    <p>Problem sets are larger assignment-style practice packets. Based on where they are assigned in the course, each problem set seems to cover the previous block of sections.</p>
+    <ul>
+      <li><a href="problem_sets/Problem%20Set%201.pdf">Problem Set 1</a> — Module 1: 2.1–2.2. Covers secant lines, velocity, and limits of a function.</li>
+<li><a href="problem_sets/Problem%20Set%202.pdf">Problem Set 2</a> — Modules 2–3: 2.3–2.7. Covers calculating limits, continuity, limits involving infinity, and derivatives as rates of change.</li>
+<li><a href="problem_sets/Problem%20Set%203.pdf">Problem Set 3</a> — Modules 4–5: 2.8–3.3. Covers derivative as a function, power rule, product/quotient rules, and trig derivatives.</li>
+<li><a href="problem_sets/Problem%20Set%204.pdf">Problem Set 4</a> — Modules 6–7: 3.4–3.7. Covers chain rule, implicit differentiation, logarithmic differentiation, and derivatives as rates of change.</li>
+<li><a href="problem_sets/Problem%20Set%205.pdf">Problem Set 5</a> — Modules 8–9: 3.9–4.2. Covers related rates, linear approximations, minimums/maximums, and the Mean Value Theorem.</li>
+<li><a href="problem_sets/Problem%20Set%206.pdf">Problem Set 6</a> — Module 10: 4.3–4.4. Covers derivatives and graphing plus L’Hopital’s Rule.</li>
+<li><a href="problem_sets/Problem%20Set%207.pdf">Problem Set 7</a> — Modules 11–12: 4.7–5.1. Covers optimization, Newton’s Method, integration, and Riemann sums.</li>
+<li><a href="problem_sets/Problem%20Set%208.pdf">Problem Set 8</a> — Modules 13–14: 5.2–5.5. Covers definite integrals, the Fundamental Theorem of Calculus, definite vs indefinite integrals, and u-substitution.</li>
+<li><a href="problem_sets/Problem%20Set%209.pdf">Problem Set 9</a> — Module 15: 6.1–6.2. Covers area between curves and solids of revolution.</li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>
