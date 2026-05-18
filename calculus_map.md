@@ -332,63 +332,63 @@ These files collect the broader course practice material. They are not tied to o
 
 Podcast PDFs are grouped by problem-number ranges based on where podcasts appear in the course modules.  
 
-- [Math 3A Podcast Problems](Podcasts/Math%203A%20Podcast%20Problems.pdf) — Main podcast problem packet containing the full set of podcast practice problems.
+- [Math 3A Podcast Problems](podcasts/Math%203A%20Podcast%20Problems.pdf) — Main podcast problem packet containing the full set of podcast practice problems.
 - [Math 3A Podcast Videos](https://www.youtube.com/playlist?list=PLFDF7CDBECA40DABE) — YouTube playlist with the worked podcast video solutions/explanations.
 
 Podcast PDFs below are grouped by problem-number ranges:
 
-- [Podcast 1–15](Podcasts/Podcast%201-15.pdf) — Review through **Module 4**: 2.1 – 3.1  
+- [Podcast 1–15](podcasts/Podcast%201-15.pdf) — Review through **Module 4**: 2.1 – 3.1  
   Covers secant lines, limits, continuity, derivatives, derivative as a function, and the power rule.
 
-- [Podcast 16–29](Podcasts/Podcast%2016-29.pdf) — Review through **Module 6**: 3.2 – 3.5  
+- [Podcast 16–29](podcasts/Podcast%2016-29.pdf) — Review through **Module 6**: 3.2 – 3.5  
   Covers product/quotient rules, trig derivatives, chain rule, and implicit differentiation.
 
-- [Podcast 30–38](Podcasts/Podcast%2030-38.pdf) — Review through **Module 8**: 3.6 – 3.10  
+- [Podcast 30–38](podcasts/Podcast%2030-38.pdf) — Review through **Module 8**: 3.6 – 3.10  
   Covers logarithmic differentiation, rates of change, related rates, and linear approximations.  
     
-- [Podcast 39–52](Podcasts/Podcast%2039-52.pdf) — Review through **Module 9**: 4.1 – 4.2  
+- [Podcast 39–52](podcasts/Podcast%2039-52.pdf) — Review through **Module 9**: 4.1 – 4.2  
   Covers minimums/maximums and the Mean Value Theorem.   
 
-- [Podcast 53–58](Podcasts/Podcast%2053-58.pdf) — Review through **Module 10**: 4.3 – 4.4  
+- [Podcast 53–58](podcasts/Podcast%2053-58.pdf) — Review through **Module 10**: 4.3 – 4.4  
   Covers derivatives and graphing plus L’Hopital’s Rule.
 
-- [Podcast 59–71](Podcasts/Podcast%2059-71.pdf) — Review through **Module 11**: 4.7 – 4.8  
+- [Podcast 59–71](podcasts/Podcast%2059-71.pdf) — Review through **Module 11**: 4.7 – 4.8  
   Covers optimization and Newton’s Method.
 
-- [Podcast 72–84](Podcasts/Podcast%2072-84.pdf) — Review through **Module 13**: 4.9 – 5.3  
+- [Podcast 72–84](podcasts/Podcast%2072-84.pdf) — Review through **Module 13**: 4.9 – 5.3  
   Covers integration, Riemann sums, definite integrals, and the Fundamental Theorem of Calculus.  
     
-- [Podcast 85–88](Podcasts/Podcast%2085-88.pdf) — Review through **Module 15**: 5.4 – 6.2  
+- [Podcast 85–88](podcasts/Podcast%2085-88.pdf) — Review through **Module 15**: 5.4 – 6.2  
   Covers definite vs indefinite integrals, u-substitution, area between curves, and solids of revolution.
 
 ### Problem Sets
 
 Problem sets are larger assignment-style practice packets. Based on where they are assigned in the course, each problem set seems to cover the previous block of sections.
 
-- [Problem Set 1](Problem%20Sets/Problem%20Set%201.pdf) — **Module 1**: 2.1 – 2.2  
+- [Problem Set 1](problem_sets/Problem%20Set%201.pdf) — **Module 1**: 2.1 – 2.2  
   Covers secant lines, velocity, and limits of a function.
 
-- [Problem Set 2](Problem%20Sets/Problem%20Set%202.pdf) — **Modules 2–3**: 2.3 – 2.7  
+- [Problem Set 2](problem_sets/Problem%20Set%202.pdf) — **Modules 2–3**: 2.3 – 2.7  
   Covers calculating limits, continuity, limits involving infinity, and derivatives as rates of change.
 
-- [Problem Set 3](Problem%20Sets/Problem%20Set%203.pdf) — **Modules 4–5**: 2.8 – 3.3  
+- [Problem Set 3](problem_sets/Problem%20Set%203.pdf) — **Modules 4–5**: 2.8 – 3.3  
   Covers derivative as a function, power rule, product/quotient rules, and trig derivatives.
 
-- [Problem Set 4](Problem%20Sets/Problem%20Set%204.pdf) — **Modules 6–7**: 3.4 – 3.7  
+- [Problem Set 4](problem_sets/Problem%20Set%204.pdf) — **Modules 6–7**: 3.4 – 3.7  
   Covers chain rule, implicit differentiation, logarithmic differentiation, and derivatives as rates of change.
 
-- [Problem Set 5](Problem%20Sets/Problem%20Set%205.pdf) — **Modules 8–9**: 3.9 – 4.2  
+- [Problem Set 5](problem_sets/Problem%20Set%205.pdf) — **Modules 8–9**: 3.9 – 4.2  
   Covers related rates, linear approximations, minimums/maximums, and the Mean Value Theorem.
 
-- [Problem Set 6](Problem%20Sets/Problem%20Set%206.pdf) — **Module 10**: 4.3 – 4.4  
+- [Problem Set 6](problem_sets/Problem%20Set%206.pdf) — **Module 10**: 4.3 – 4.4  
   Covers derivatives and graphing plus L’Hopital’s Rule.
 
-- [Problem Set 7](Problem%20Sets/Problem%20Set%207.pdf) — **Modules 11–12**: 4.7 – 5.1  
+- [Problem Set 7](problem_sets/Problem%20Set%207.pdf) — **Modules 11–12**: 4.7 – 5.1  
   Covers optimization, Newton’s Method, integration, and Riemann sums.
 
-- [Problem Set 8](Problem%20Sets/Problem%20Set%208.pdf) — **Modules 13–14**: 5.2 – 5.5  
+- [Problem Set 8](problem_sets/Problem%20Set%208.pdf) — **Modules 13–14**: 5.2 – 5.5  
   Covers definite integrals, the Fundamental Theorem of Calculus, definite vs indefinite integrals, and u-substitution.
 
-- [Problem Set 9](Problem%20Sets/Problem%20Set%209.pdf) — **Module 15**: 6.1 – 6.2  
-  Covers area between curves and solids of revolution.
+- [Problem Set 9](problem_sets/Problem%20Set%209.pdf) — **Final Review**:  
+  Covers derivatives, antiderivatives, concavity/decreasing intervals, midpoint rule estimates, optimization, related rates, Newton’s Method, and limits.
 

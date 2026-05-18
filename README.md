@@ -219,4 +219,4 @@ Problem sets are larger assignment-style practice packets. Based on where they a
 - [Problem Set 6](problem_sets/Problem%20Set%206.pdf) — **Module 10**: 4.3–4.4. Covers derivatives and graphing plus L’Hopital’s Rule.
 - [Problem Set 7](problem_sets/Problem%20Set%207.pdf) — **Modules 11–12**: 4.7–5.1. Covers optimization, Newton’s Method, integration, and Riemann sums.
 - [Problem Set 8](problem_sets/Problem%20Set%208.pdf) — **Modules 13–14**: 5.2–5.5. Covers definite integrals, the Fundamental Theorem of Calculus, definite vs indefinite integrals, and u-substitution.
-- [Problem Set 9](problem_sets/Problem%20Set%209.pdf) — **Module 15**: 6.1–6.2. Covers area between curves and solids of revolution.
+- [Problem Set 9](problem_sets/Problem%20Set%209.pdf) — **Final Review**: Covers derivatives, antiderivatives, concavity/decreasing intervals, midpoint rule estimates, optimization, related rates, Newton’s Method, and limits.
